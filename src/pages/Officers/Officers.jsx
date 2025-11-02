@@ -67,14 +67,14 @@ const Officers = ({
       {/* ✅ Filter Controls */}
       <div className="flex gap-3 mb-6 items-center">
         <select
-          className="border border-gray-300 p-2 rounded"
+          className="border border-gray-300 p-2 rounded bg-[var(--color-secondary)] "
           value={filterKey}
           onChange={(e) => {
             setFilterKey(e.target.value);
             setFilterValue("");
           }}
         >
-          <option value="">-- Select Filter Key --</option>
+          <option value="">----- Filter Key -----</option>
           <option value="branch">Branch</option>
           <option value="location">Location</option>
           <option value="rank">Rank</option>
@@ -82,7 +82,7 @@ const Officers = ({
         </select>
 
         <select
-          className="border border-gray-300 p-2 rounded"
+          className="border border-gray-300 p-2 rounded bg-[var(--color-secondary)] "
           value={filterValue}
           onChange={(e) => setFilterValue(e.target.value)}
           disabled={!filterKey}

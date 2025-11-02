@@ -4,6 +4,7 @@ import officerReducer from "./officer/officerReducer";
 import locationReducer from "./location/locationReducer";
 import branchReducer from "./branch/branchReducer.js";
 import deploymentReducer from "./deployment/deploymentReducer.js";
+import dashboardReducer from "./dashboard/dashboardReducer.js";
 
 
 const rootReducer = combineReducers({
@@ -11,6 +12,7 @@ const rootReducer = combineReducers({
   locations: locationReducer,
   branches: branchReducer,
   deployments: deploymentReducer,
+  dashboard: dashboardReducer,
 });
 
 const store = configureStore({
