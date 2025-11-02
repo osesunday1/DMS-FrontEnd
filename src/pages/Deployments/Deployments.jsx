@@ -13,6 +13,7 @@ const Deployments = ({
 
   if (loading) return <p className="text-center text-gray-500 mt-10">Loading deployments...</p>;
   if (error) return <p className="text-center text-red-500 mt-10">{error}</p>;
+ 
 
   return (
     <div className="p-6">
@@ -36,7 +37,7 @@ const Deployments = ({
             
 
             <p className="text-gray-500 text-xs mt-2">
-              Start Date: {new Date(d.startDate).toLocaleDateString()}
+              Start Date: {new Date(d.dateOfDeployment).toLocaleDateString()}
             </p>
             {d.endDate && (
               <p className="text-gray-500 text-xs">

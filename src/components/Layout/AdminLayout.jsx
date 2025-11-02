@@ -98,7 +98,7 @@ const AdminLayout = () => {
             <span className="font-bold text-[var(--color-secondary)]">M</span>
           ) : (
             <h2 className="font-bold text-lg text-[var(--color-secondary)]">
-              NaVsec Admin
+              NAVSEC
             </h2>
           )}
         </div>
