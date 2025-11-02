@@ -27,7 +27,7 @@ const adminLinks = [
     icon: <MdOutlineMilitaryTech />,
     children: [
       { label: "Deployment List", path: "/admin/deployments" },
-      { label: "Add Deployment", path: "/admin/deployments/add" },
+      { label: "Create Deployment", path: "/admin/deployments/add" },
     ],
   },
   {

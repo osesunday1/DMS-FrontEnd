@@ -18,7 +18,7 @@ const Locations = ({ locations: { locations, loading, error }, getLocations }) =
         {locations.map((loc) => (
           <div
             key={loc._id}
-            className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition"
+            className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition border-r-4 border-l-4 border-[var(--color-primary-300)]"
           >
             <h2 className="font-bold text-gray-800 mb-1">{loc.unit}</h2>
             <p className="text-gray-600 text-sm"> <span> <b>State:</b> </span>{loc.state}</p>
