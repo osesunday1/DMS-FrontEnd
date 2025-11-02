@@ -65,7 +65,7 @@ const Officers = ({
       <h1 className="text-2xl font-bold mb-6 text-white">Officers</h1>
 
       {/* ✅ Filter Controls */}
-      <div className="flex gap-3 mb-6 items-center">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:gap-3 gap-4 mb-6 w-full">
         <select
           className="border border-gray-300 p-2 rounded bg-[var(--color-secondary)] "
           value={filterKey}
