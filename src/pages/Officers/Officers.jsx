@@ -62,7 +62,7 @@ const Officers = ({
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6 text-white">Officers</h1>
+      <h1 className="text-2xl font-bold mb-6 text-white">List Of Officers</h1>
 
       {/* ✅ Filter Controls */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:gap-3 gap-4 mb-6 w-full">
